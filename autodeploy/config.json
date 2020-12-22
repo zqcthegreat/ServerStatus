@@ -1,37 +1,172 @@
 {"servers":
 	[
 		{
-			"username": "s01",
-			"name": "node1",
-			"type": "xen",
-			"host": "host1",
+			"username": "003",
+			"name": "003",
+			"type": "kvm",
+			"host": "003",
 			"location": "cn",
-			"password": "USER_DEFAULT_PASSWORD"
+			"password": "woc"
 		},
 		{
-			"username": "s02",
-			"name": "node2",
-			"type": "vmware",
-			"host": "host2",
-			"location": "jp",
-			"password": "USER_DEFAULT_PASSWORD"
+			"username": "004",
+			"name": "004",
+			"type": "kvm",
+			"host": "004",
+			"location": "cn",
+			"password": "woc"
 		},
 		{
-			"disabled": true,
-			"username": "s03",
-			"name": "node3",
-			"type": "Nothing",
-			"host": "host3",
-			"location": "fr",
-			"password": "USER_DEFAULT_PASSWORD"
+			"username": "005",
+			"name": "005",
+			"type": "kvm",
+			"host": "005",
+			"location": "cn",
+			"password": "woc"
 		},
 		{
-			"username": "s04",
-			"name": "ssss",
-			"type": "ssss",
-			"host": "ssss",
-			"location": "ssss",
-			"password": "USER_DEFAULT_PASSWORD"
+			"username": "006",
+			"name": "006",
+			"type": "kvm",
+			"host": "006",
+			"location": "cn",
+			"password": "woc"
+		},
+		{
+			"username": "007",
+			"name": "007",
+			"type": "kvm",
+			"host": "007",
+			"location": "cn",
+			"password": "woc"
+		},
+		{
+			"username": "008",
+			"name": "008",
+			"type": "kvm",
+			"host": "008",
+			"location": "cn",
+			"password": "woc"
+		},
+		{
+			"username": "009",
+			"name": "009",
+			"type": "kvm",
+			"host": "009",
+			"location": "cn",
+			"password": "woc"
+		},
+		{
+			"username": "010",
+			"name": "010",
+			"type": "kvm",
+			"host": "010",
+			"location": "cn",
+			"password": "woc"
+		},
+		{
+			"username": "011",
+			"name": "011",
+			"type": "kvm",
+			"host": "011",
+			"location": "cn",
+			"password": "woc"
+		},
+		{
+			"username": "012",
+			"name": "012",
+			"type": "kvm",
+			"host": "012",
+			"location": "cn",
+			"password": "woc"
+		},
+		{
+			"username": "013",
+			"name": "013",
+			"type": "kvm",
+			"host": "013",
+			"location": "cn",
+			"password": "woc"
+		},
+		{
+			"username": "014",
+			"name": "014",
+			"type": "kvm",
+			"host": "014",
+			"location": "cn",
+			"password": "woc"
+		},
+		{
+			"username": "015",
+			"name": "015",
+			"type": "kvm",
+			"host": "015",
+			"location": "cn",
+			"password": "woc"
+		},
+		{
+			"username": "016",
+			"name": "016",
+			"type": "kvm",
+			"host": "016",
+			"location": "cn",
+			"password": "woc"
+		},
+		{
+			"username": "017",
+			"name": "017",
+			"type": "kvm",
+			"host": "017",
+			"location": "cn",
+			"password": "woc"
+		},
+		{
+			"username": "018",
+			"name": "018",
+			"type": "kvm",
+			"host": "018",
+			"location": "cn",
+			"password": "woc"
+		},
+		{
+			"username": "019",
+			"name": "019",
+			"type": "kvm",
+			"host": "019",
+			"location": "cn",
+			"password": "woc"
+		},
+		{
+			"username": "020",
+			"name": "020",
+			"type": "kvm",
+			"host": "020",
+			"location": "cn",
+			"password": "woc"
+		},
+		{
+			"username": "021",
+			"name": "021",
+			"type": "kvm",
+			"host": "021",
+			"location": "cn",
+			"password": "woc"
+		},
+		{
+			"username": "022",
+			"name": "022",
+			"type": "kvm",
+			"host": "022",
+			"location": "cn",
+			"password": "woc"
+		},
+		{
+			"username": "023",
+			"name": "023",
+			"type": "kvm",
+			"host": "003",
+			"location": "cn",
+			"password": "woc"
 		}
 	]
 }
