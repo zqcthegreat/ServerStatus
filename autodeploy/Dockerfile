@@ -2,9 +2,9 @@ FROM debian:latest as builder
 
 MAINTAINER cppla https://cpp.la
 
-RUN apt-get update
-RUN apt-get -y install gcc g++ make git
-RUN git clone https://github.com/cppla/ServerStatus
+RUN apt-get update && \
+    apt-get -y install gcc g++ make git wget && \
+    git clone https://github.com/zqcthegreat/ServerStatus-1.git
 
 WORKDIR /ServerStatus/server
 
@@ -21,4 +21,4 @@ COPY --from=builder /ServerStatus/web /usr/share/nginx/html/
 
 EXPOSE 80 35601
 
-CMD nohup sh -c '/etc/init.d/nginx start && /ServerStatus/server/sergate --config=/ServerStatus/server/config.json --web-dir=/usr/share/nginx/html'
+CMD nohup sh -c 'wget -P /ServerStatus/server/ https://raw.githubusercontent.com/zqcthegreat/ServerStatus-1/master/autodeploy/config.json && /etc/init.d/nginx start && /ServerStatus/server/sergate --config=/ServerStatus/server/config.json --web-dir=/usr/share/nginx/html'
