@@ -2,11 +2,11 @@ FROM debian:latest as builder
 
 MAINTAINER cppla https://cpp.la
 
+WORKDIR /ServerStatus/server
+
 RUN apt-get update && \
     apt-get -y install gcc g++ make git wget && \
     git clone https://github.com/zqcthegreat/ServerStatus-1.git
-
-WORKDIR /ServerStatus/server
 
 RUN make
 RUN pwd && ls -a
