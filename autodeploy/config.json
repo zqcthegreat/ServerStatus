@@ -1,19 +1,19 @@
 {"servers":
 	[
 		{
-			"username": "003",
-			"name": "003",
+			"username": "005",
+			"name": "005",
 			"type": "kvm",
-			"host": "003",
-			"location": "tw",
+			"host": "005",
+			"location": "hk-aga",
 			"password": "woc"
 		},
 		{
-			"username": "004",
-			"name": "004",
+			"username": "006",
+			"name": "006",
 			"type": "kvm",
-			"host": "004",
-			"location": "kr2-aw",
+			"host": "006",
+			"location": "jp-aga",
 			"password": "woc"
 		},
 		{
@@ -41,11 +41,11 @@
 			"password": "woc"
 		},
 		{
-			"username": "010",
-			"name": "010",
+			"username": "021",
+			"name": "021",
 			"type": "kvm",
-			"host": "010",
-			"location": "az2-rbq",
+			"host": "021",
+			"location": "vu-jp-io",
 			"password": "woc"
 		},
 		{
@@ -73,6 +73,14 @@
 			"password": "woc"
 		},
 		{
+			"username": "004",
+			"name": "004",
+			"type": "kvm",
+			"host": "004",
+			"location": "kr2-aw",
+			"password": "woc"
+		},
+		{
 			"username": "015",
 			"name": "015",
 			"type": "kvm",
@@ -85,23 +93,7 @@
 			"name": "016",
 			"type": "kvm",
 			"host": "016",
-			"location": "id-aw",
-			"password": "woc"
-		},
-		{
-			"username": "017",
-			"name": "017",
-			"type": "kvm",
-			"host": "017",
-			"location": "az1-rbq",
-			"password": "woc"
-		},
-		{
-			"username": "018",
-			"name": "018",
-			"type": "kvm",
-			"host": "018",
-			"location": "vn",
+			"location": "jp2-aw",
 			"password": "woc"
 		},
 		{
@@ -113,11 +105,11 @@
 			"password": "woc"
 		},
 		{
-			"username": "021",
-			"name": "021",
+			"username": "018",
+			"name": "018",
 			"type": "kvm",
-			"host": "021",
-			"location": "vu-zz",
+			"host": "018",
+			"location": "vn",
 			"password": "woc"
 		},
 		{
@@ -129,8 +121,32 @@
 			"password": "woc"
 		},
 		{
+			"username": "010",
+			"name": "010",
+			"type": "kvm",
+			"host": "010",
+			"location": "az2-rbq",
+			"password": "woc"
+		},
+		{
+			"username": "017",
+			"name": "017",
+			"type": "kvm",
+			"host": "017",
+			"location": "az1-rbq",
+			"password": "woc"
+		},
+		{
+			"username": "003",
+			"name": "003",
+			"type": "kvm",
+			"host": "003",
+			"location": "tw",
+			"password": "woc"
+		},
+		{
 			"username": "026",
-			"name": "023",
+			"name": "026",
 			"type": "kvm",
 			"host": "003",
 			"location": "iplc",
